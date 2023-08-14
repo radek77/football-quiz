@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.:: Football Quiz ::.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="header">
+    <h1>Football Quiz</h1>
+    <nav>
+        <a href="#" id="home-link">Home</a> |
+        <a href="#" id="about-link">About</a> |
+        <a href="#" id="contact-link">Contact</a>
+    </nav>
+</div>
+<div class="container">
+    <div id="quiz" class="quiz-container">
+        <div class="quiz-question"></div>
+        <button class="quiz-button"></button>
+        <br/>
+        <button class="quiz-button"></button>
+        <br/>
+        <button class="quiz-button"></button>
+        <br/>
+        <button class="quiz-button"></button>
+    </div>
+
+    <button id="next-button" class="next-button" style="display: block;">Next Question</button>
+
+    <div id="about" class="about-container" hidden="hidden">
+        <h2>About Football Quiz</h2>
+        <p>Welcome to Football Quiz! Our quiz is designed to test your knowledge of the beautiful game of football.
+            Whether you're a die-hard fan or just a casual observer, our questions will challenge you with trivia from
+            the world of soccer.</p>
+    </div>
+    <div id="contact" class="contact-container" hidden="hidden">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feedback, or suggestions about Football Quiz, feel free to get in touch with us.
+            You can reach out to our team at contact@footballquiz.com. We value your input and look forward to hearing
+            from you!</p>
+    </div>
+    <div id="result" class="quiz-container" style="display: none;">
+        <h2>Quiz Results</h2>
+        <p id="score"></p>
+    </div>
+    <button id="start-button" class="start-button" onclick="resetQuiz();">Start over</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
