@@ -127,6 +127,10 @@ nextButton.addEventListener("click", () => {
     }
 });
 
+startButton.addEventListener("click", () => {
+    resetQuiz();
+});
+
 const answerButtons = document.querySelectorAll(".quiz-button:not(#next-button)");
 answerButtons.forEach(button => {
     button.addEventListener("click", checkAnswer);
