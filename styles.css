@@ -90,7 +90,15 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-size: 30px;
+}
+
 p {
     font-size: 20px;
 }
 
+ol.rules {
+    text-align: left;
+    line-height: 1.5;
+}
